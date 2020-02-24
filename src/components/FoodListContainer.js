@@ -15,6 +15,7 @@ const FoodListContainer = () => {
             childMarkdownRemark {
               frontmatter {
                 title
+                image
               }
               html
             }

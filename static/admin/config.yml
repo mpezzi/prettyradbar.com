@@ -21,6 +21,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "food"
     label: "Food"
@@ -31,6 +32,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "food"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "drink"
     label: "Drink"
@@ -41,6 +43,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "drink"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
 
 # collections:

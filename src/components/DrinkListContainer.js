@@ -15,6 +15,7 @@ const DrinkListContainer = () => {
             childMarkdownRemark {
               frontmatter {
                 title
+                image
               }
               html
             }

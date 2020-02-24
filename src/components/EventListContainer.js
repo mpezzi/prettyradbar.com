@@ -16,6 +16,7 @@ const EventListContainer = () => {
             childMarkdownRemark {
               frontmatter {
                 title
+                image
               }
               html
             }
