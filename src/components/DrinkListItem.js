@@ -1,24 +1,47 @@
 import React from 'react';
 
-const DrinkListItem = ({ node }) => {
-
-  const item = {
-    id: node.id,
-    title: node.childMarkdownRemark.frontmatter.title,
-    body: node.childMarkdownRemark.html,
-  };
-
-  return (
-    <div id={item.id}>
-      <h4>
-        {item.title}
-      </h4>
-      <div
-        dangerouslySetInnerHTML={{ __html: item.body}}
-      />
-    </div>
-  );
-
+const DrinkListItem = ({ item, index }) => {
+  return index % 2
+    ? (
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0" id={item.id}>
+          <div className="col-lg-6">
+            <img className="img-fluid" src="img/demo-image-01.jpg" alt="" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">
+                    {item.title}
+                  </h4>
+                  <div className="mb-0 text-white-50" dangerouslySetInnerHTML={{ __html: item.body }} />
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    : (
+      <div className="row justify-content-center no-gutters" id={item.id}>
+        <div className="col-lg-6">
+          <img className="img-fluid" src="img/demo-image-02.jpg" alt="" />
+        </div>
+        <div className="col-lg-6 order-lg-first">
+          <div className="bg-black text-center h-100 project">
+            <div className="d-flex h-100">
+              <div className="project-text w-100 my-auto text-center text-lg-right">
+                <h4 className="text-white">
+                  {item.title}
+                </h4>
+                <div className="mb-0 text-white-50" dangerouslySetInnerHTML={{ __html: item.body }} />
+                <hr className="d-none d-lg-block mb-0 mr-0" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
 }
 
 export default DrinkListItem;

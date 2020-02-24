@@ -1,37 +1,23 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Seo from '../components/Seo';
-import EventListContainer from '../components/EventListContainer';
-import DrinkListContainer from '../components/DrinkListContainer';
-import FoodListContainer from '../components/FoodListContainer';
+import Header from '../components/Header';
+import Intro from '../components/Intro';
+import EventSection from '../components/EventSection';
+import FoodSection from '../components/FoodSection';
+import DrinkSection from '../components/DrinkSection';
+import ContactSection from '../components/ContactSection';
 
 const IndexPage = () => {
   return (
     <Layout>
       <Seo title="Home" />
-      <div>
-        <h1>
-          IndexPage
-        </h1>
-        <section>
-          <h2>
-            Events
-          </h2>
-          <EventListContainer />
-        </section>
-        <section>
-          <h2>
-            Menu
-          </h2>
-          <FoodListContainer />
-        </section>
-        <section>
-          <h2>
-            Drinks
-          </h2>
-          <DrinkListContainer />
-        </section>
-      </div>
+      <Header />
+      <Intro />
+      <EventSection />
+      <FoodSection />
+      <DrinkSection />
+      <ContactSection />
     </Layout>
   )
 }
