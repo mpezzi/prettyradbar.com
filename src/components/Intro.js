@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Intro = () => {
   return (
@@ -6,15 +6,16 @@ const Intro = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
-            <p className="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-              <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+            <h2 className="text-white mb-4">Its a new place of yours</h2>
+            <p className="text-white-50">
+              Come for the drinks, stay for the atmosphere
+            </p>
           </div>
         </div>
-        <img src="img/ipad.png" className="img-fluid" alt="" />
+        <img src="img/ipad-drink.png" className="img-fluid" alt="" />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;

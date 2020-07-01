@@ -1,8 +1,7 @@
-import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
 const Header = () => {
-
   const { site } = useStaticQuery(
     graphql`
       query HeaderQuery {
@@ -14,26 +13,23 @@ const Header = () => {
         }
       }
     `
-  )
+  );
 
   return (
     <header className="masthead">
-      <div className="container d-flex h-100 align-items-center">
-        <div className="mx-auto text-center">
-          <h1 className="mx-auto my-0 text-uppercase">
-            {site.siteMetadata.title}
-          </h1>
+      <div className="container d-flex h-100 justify-content-center align-items-center">
+        <div className="text-center">
+          <h1 className="my-0 text-uppercase">{site.siteMetadata.title}</h1>
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {site.siteMetadata.description}
           </h2>
           <a href="#about" className="btn btn-primary js-scroll-trigger">
-            Get Started
+            Discover
           </a>
         </div>
       </div>
     </header>
-  )
+  );
+};
 
-}
-
-export default Header
+export default Header;

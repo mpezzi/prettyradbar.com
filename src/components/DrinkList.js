@@ -11,6 +11,7 @@ const DrinkList = ({ nodes }) => {
             id: node.id,
             title: node.childMarkdownRemark.frontmatter.title,
             image: node.childMarkdownRemark.frontmatter.image,
+            price: node.childMarkdownRemark.frontmatter.price,
             body: node.childMarkdownRemark.html,
           };
 

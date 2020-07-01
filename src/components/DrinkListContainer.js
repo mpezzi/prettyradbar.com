@@ -16,6 +16,7 @@ const DrinkListContainer = () => {
               frontmatter {
                 title
                 image
+                price
               }
               html
             }

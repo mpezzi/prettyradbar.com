@@ -15,7 +15,10 @@ const FoodListItem = ({ item, index }) => {
                     {item.title}
                   </h4>
                   <div className="mb-0 text-white-50" dangerouslySetInnerHTML={{ __html: item.body }} />
-                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                  <hr className="d-none d-lg-block mb-2 ml-0" />
+                  <div className="mb-0 text-white-50">
+                    {item.price}
+                  </div>
                 </div>
               </div>
             </div>
@@ -35,7 +38,10 @@ const FoodListItem = ({ item, index }) => {
                   {item.title}
                 </h4>
                 <div className="mb-0 text-white-50" dangerouslySetInnerHTML={{ __html: item.body }} />
-                <hr className="d-none d-lg-block mb-0 mr-0" />
+                <hr className="d-none d-lg-block mb-2 mr-0" />
+                <div className="mb-0 text-white-50">
+                  {item.price}
+                </div>
               </div>
             </div>
           </div>

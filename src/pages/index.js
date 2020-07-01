@@ -11,7 +11,7 @@ import ContactSection from '../components/ContactSection';
 const IndexPage = () => {
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo />
       <Header />
       <Intro />
       <EventSection />

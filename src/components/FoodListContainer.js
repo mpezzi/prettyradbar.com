@@ -16,6 +16,7 @@ const FoodListContainer = () => {
               frontmatter {
                 title
                 image
+                price
               }
               html
             }

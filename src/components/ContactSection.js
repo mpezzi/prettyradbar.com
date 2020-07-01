@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ContactSection = () => {
   return (
@@ -11,7 +11,14 @@ const ContactSection = () => {
                 <i className="fas fa-map-marked-alt text-primary mb-2"></i>
                 <h4 className="text-uppercase m-0">Address</h4>
                 <hr className="my-4" />
-                <div className="small text-black-50">4923 Market Street, Orlando FL</div>
+                <div className="small text-black-50">
+                  <a
+                    href="https://goo.gl/maps/aX4esDTsMNZNyL868"
+                    target="_blank"
+                  >
+                    243 Main St E., Milton, ON, L9T 1P1
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -22,7 +29,9 @@ const ContactSection = () => {
                 <h4 className="text-uppercase m-0">Email</h4>
                 <hr className="my-4" />
                 <div className="small text-black-50">
-                  <a href="#">hello@yourdomain.com</a>
+                  <a href="mailto:prettyradbar@gmail.com" target="_blank">
+                    prettyradbar@gmail.com
+                  </a>
                 </div>
               </div>
             </div>
@@ -33,7 +42,11 @@ const ContactSection = () => {
                 <i className="fas fa-mobile-alt text-primary mb-2"></i>
                 <h4 className="text-uppercase m-0">Phone</h4>
                 <hr className="my-4" />
-                <div className="small text-black-50">+1 (555) 902-8832</div>
+                <div className="small text-black-50">
+                  <a href="tel:+1-289-429-1245" target="_blank">
+                    +1-289-429-1245
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -51,7 +64,7 @@ const ContactSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ContactSection
+export default ContactSection;
