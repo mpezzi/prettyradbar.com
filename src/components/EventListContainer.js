@@ -16,7 +16,13 @@ const EventListContainer = () => {
             childMarkdownRemark {
               frontmatter {
                 title
-                image
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 400, maxHeight: 350) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
               }
               html
             }

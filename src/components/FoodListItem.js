@@ -1,11 +1,12 @@
 import React from 'react';
+import Img from 'gatsby-image';
 
 const FoodListItem = ({ item, index }) => {
   return index % 2
     ? (
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0" id={item.id}>
           <div className="col-lg-6">
-            <img className="img-fluid" src={item.image} alt={item.title} />
+            <Img fluid={item.image.childImageSharp.fluid} alt={item.title} />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -28,7 +29,7 @@ const FoodListItem = ({ item, index }) => {
     : (
       <div className="row justify-content-center no-gutters" id={item.id}>
         <div className="col-lg-6">
-          <img className="img-fluid" src={item.image} alt={item.title} />
+          <Img fluid={item.image.childImageSharp.fluid} alt={item.title} />
         </div>
         <div className="col-lg-6 order-lg-first">
           <div className="bg-black text-center h-100 project">
