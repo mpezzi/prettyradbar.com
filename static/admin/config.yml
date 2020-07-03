@@ -34,7 +34,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Price", name: "price", widget: "string"}
+      - {label: "Price", name: "price", widget: "number"}
   - name: "drink"
     label: "Drink"
     folder: "src/contents/drink"
@@ -46,7 +46,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Price", name: "price", widget: "string"}
+      - {label: "Price", name: "price", widget: "number"}
 
 # collections:
 #   - name: "blog"

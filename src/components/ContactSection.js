@@ -1,5 +1,6 @@
 import React from "react";
 
+/* eslint-disable jsx-a11y/anchor-is-valid */
 const ContactSection = () => {
   return (
     <section className="contact-section bg-black">
@@ -15,6 +16,7 @@ const ContactSection = () => {
                   <a
                     href="https://goo.gl/maps/aX4esDTsMNZNyL868"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     243 Main St E., Milton, ON, L9T 1P1
                   </a>
@@ -29,7 +31,7 @@ const ContactSection = () => {
                 <h4 className="text-uppercase m-0">Email</h4>
                 <hr className="my-4" />
                 <div className="small text-black-50">
-                  <a href="mailto:prettyradbar@gmail.com" target="_blank">
+                  <a href="mailto:prettyradbar@gmail.com" target="_blank" rel="noopener noreferrer">
                     prettyradbar@gmail.com
                   </a>
                 </div>
@@ -43,7 +45,7 @@ const ContactSection = () => {
                 <h4 className="text-uppercase m-0">Phone</h4>
                 <hr className="my-4" />
                 <div className="small text-black-50">
-                  <a href="tel:+1-289-429-1245" target="_blank">
+                  <a href="tel:+1-289-429-1245" target="_blank" rel="noopener noreferrer">
                     +1-289-429-1245
                   </a>
                 </div>
