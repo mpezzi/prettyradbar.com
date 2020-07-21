@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import FoodList from './FoodList';
+import FoodList from "./FoodList";
 
 const FoodListContainer = () => {
-
-  const { allFile: { nodes } } = useStaticQuery(
+  const {
+    allFile: { nodes },
+  } = useStaticQuery(
     graphql`
       query FoodListContainerQuery {
-        allFile(
-          filter: {sourceInstanceName: {eq: "food"}}
-        ) {
+        allFile(filter: { sourceInstanceName: { eq: "food" } }) {
           nodes {
             id
             childMarkdownRemark {
@@ -32,10 +31,7 @@ const FoodListContainer = () => {
     `
   );
 
-  return (
-    <FoodList nodes={nodes} />
-  );
-
-}
+  return <FoodList nodes={nodes} />;
+};
 
 export default FoodListContainer;

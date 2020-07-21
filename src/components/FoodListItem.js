@@ -1,54 +1,29 @@
-import React from 'react';
-import Img from 'gatsby-image';
+import React from "react";
+import cx from "classnames";
 
 const FoodListItem = ({ item, index }) => {
-  return index % 2
-    ? (
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0" id={item.id}>
-          <div className="col-lg-6">
-            <Img fluid={item.image.childImageSharp.fluid} alt={item.title} />
-          </div>
-          <div className="col-lg-6">
-            <div className="bg-black text-center h-100 project">
-              <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">
-                    {item.title}
-                  </h4>
-                  <div className="mb-0 text-white-50" dangerouslySetInnerHTML={{ __html: item.body }} />
-                  <hr className="d-none d-lg-block mb-2 ml-0" />
-                  <div className="mb-0 text-white-50">
-                    {item.price}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )
-    : (
-      <div className="row justify-content-center no-gutters" id={item.id}>
-        <div className="col-lg-6">
-          <Img fluid={item.image.childImageSharp.fluid} alt={item.title} />
-        </div>
-        <div className="col-lg-6 order-lg-first">
-          <div className="bg-black text-center h-100 project">
-            <div className="d-flex h-100">
-              <div className="project-text w-100 my-auto text-center text-lg-right">
-                <h4 className="text-white">
-                  {item.title}
-                </h4>
-                <div className="mb-0 text-white-50" dangerouslySetInnerHTML={{ __html: item.body }} />
-                <hr className="d-none d-lg-block mb-2 mr-0" />
-                <div className="mb-0 text-white-50">
-                  {item.price}
-                </div>
-              </div>
-            </div>
+  return (
+    <div className="col-md-4 col-sm-12 py-3">
+      <div
+        className={cx("text-center", "h-100", "project", {
+          "bg-black": index % 2 === 0,
+          "bg-secondary": index % 2 !== 0,
+        })}
+      >
+        <div className="d-flex h-100">
+          <div className="project-text w-100 my-auto text-center text-lg-left">
+            <h4 className="text-white">{item.title}</h4>
+            <div
+              className="mb-0 text-white-50"
+              dangerouslySetInnerHTML={{ __html: item.body }}
+            />
+            <hr className="d-none d-lg-block mb-2 ml-0" />
+            <div className="mb-0 text-white-50">{item.price}</div>
           </div>
         </div>
       </div>
-    )
-}
+    </div>
+  );
+};
 
 export default FoodListItem;

@@ -5,7 +5,7 @@ const DrinkSection = () => {
   return (
     <section id="ontap" className="projects-section bg-light">
       <div className="container">
-        <div className="row align-items-center no-gutters mb-3 mb-lg-4">
+        <div className="row align-items-center no-gutters mb-3">
           <div className="col-xl-8 col-lg-7">
             <img
               className="img-fluid mb-3 mb-lg-0"
