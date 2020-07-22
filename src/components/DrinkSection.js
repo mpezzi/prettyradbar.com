@@ -15,8 +15,8 @@ const DrinkSection = () => {
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>On Tap</h4>
-              <p className="text-black-50 mb-0">What is on tap?</p>
+              <h4>Drinks</h4>
+              <p className="text-black-50 mb-0">Feeling thirsty?</p>
             </div>
           </div>
         </div>

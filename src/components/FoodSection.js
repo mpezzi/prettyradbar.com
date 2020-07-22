@@ -16,9 +16,7 @@ const FoodSection = () => {
           <div className="col-xl-4 col-lg-4">
             <div className="featured-text text-center text-lg-left">
               <h4>Menu</h4>
-              <p className="text-black-50 mb-0">
-                Check out our delicious menu!
-              </p>
+              <p className="text-black-50 mb-0">Feeling hungry?</p>
             </div>
           </div>
         </div>
