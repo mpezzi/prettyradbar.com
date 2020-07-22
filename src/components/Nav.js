@@ -15,7 +15,10 @@ const Nav = () => {
   );
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav
+      className="invisible navbar navbar-expand-lg navbar-light fixed-top"
+      id="mainNav"
+    >
       <div className="container">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
           {site.siteMetadata.title}

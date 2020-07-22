@@ -17,8 +17,8 @@ const Header = () => {
 
   return (
     <header className="masthead">
-      <div className="container d-flex h-100 justify-content-center align-items-center">
-        <div className="text-center">
+      <div className="container h-100 d-flex align-items-center">
+        <div className="text-center w-100">
           <h1 className="my-0 text-uppercase">{site.siteMetadata.title}</h1>
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {site.siteMetadata.description}

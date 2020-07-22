@@ -18,11 +18,13 @@
   h1 {
     display: block;
     position: relative;
-    width: 600px;
+    width: 75%;
     height: 200px;
     background: transparent url("../img/logo.svg") center center no-repeat;
+    background-size: contain;
     font-size: 1px;
     text-indent: -1000em;
+    margin: 0 auto;
   }
   h2 {
     max-width: 20rem;
