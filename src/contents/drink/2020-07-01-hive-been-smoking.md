@@ -1,8 +1,7 @@
 ---
 templateKey: drink
-title: Hive Been Smoking
+title: the Sour Scot
 date: 2020-07-01T03:45:31.899Z
-price: 12
+price: 14
 ---
-
-rocks / 1 1⁄2 ounces hornitos tequila / 1⁄2 ounce laphroaig ten-year aged scotch / smoked honey / smoking on ice
+rocks/2oz auchentoshan american oak/fresh lime juice/simple syrup/dehydrated lime garnish
