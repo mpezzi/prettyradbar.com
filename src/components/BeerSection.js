@@ -1,7 +1,7 @@
 import React from "react";
-import DrinkListContainer from "../components/DrinkListContainer";
+import BeerListContainer from "../components/BeerListContainer";
 
-const DrinkSection = () => {
+const BeerSection = () => {
   return (
     <section id="ontap" className="projects-section bg-light">
       <div className="container">
@@ -9,21 +9,21 @@ const DrinkSection = () => {
           <div className="col-xl-8 col-lg-7">
             <img
               className="img-fluid mb-3 mb-lg-0"
-              src="img/drink.jpg"
-              alt="Drinks"
+              src="img/beer.jpg"
+              alt="Beers"
             />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Drinks</h4>
-              <p className="text-black-50 mb-0">Feeling curious?</p>
+              <h4>Beers</h4>
+              <p className="text-black-50 mb-0">Feeling thirsty?</p>
             </div>
           </div>
         </div>
-        <DrinkListContainer />
+        <BeerListContainer />
       </div>
     </section>
   );
 };
 
-export default DrinkSection;
+export default BeerSection;

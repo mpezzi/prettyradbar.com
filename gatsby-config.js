@@ -34,6 +34,13 @@ module.exports = {
         name: `drink`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/contents/beer`,
+        name: `beer`,
+      },
+    },
     // {
     //   resolve: "gatsby-source-filesystem",
     //   options: {

@@ -1,5 +1,5 @@
 ---
-templateKey: drink
+templateKey: beer
 title: Belgian Moon
 date: 2020-07-01T03:45:31.899Z
 price: 9

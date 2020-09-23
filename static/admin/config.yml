@@ -60,6 +60,22 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Price", name: "price", widget: "number" }
+  - name: "beer"
+    label: "Beer"
+    folder: "src/contents/beer"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "beer",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Price", name: "price", widget: "number" }
 # collections:
 #   - name: "blog"
 #     label: "Blog"
