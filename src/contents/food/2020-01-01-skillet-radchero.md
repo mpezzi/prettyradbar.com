@@ -2,7 +2,7 @@
 templateKey: food
 title: Skillet Radchero
 date: 2020-07-01T03:45:31.899Z
-price: 16
+price: 14
 ---
 
-crispy fingerling potato / two fried eggs / black beans / smoked cheddar / salsa pevre / avocado
+homestyle potatoes / black beans / smoked cheddar / pevre chilean salsa / two eggs sunny side up / avacado / fresh sourdough

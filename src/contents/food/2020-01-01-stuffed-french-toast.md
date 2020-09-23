@@ -2,7 +2,7 @@
 templateKey: food
 title: Stuffed French Toast
 date: 2020-07-01T03:45:31.899Z
-price: 15
+price: 13
 ---
 
-thick cut brioche / creamy nutella / applewood smoked bacon / fresh strawberries
+freshly sliced loaf / creamy nutella / crispy applewood smoked bacon / fresh fruit / icing sugar
