@@ -1,8 +1,8 @@
 ---
 templateKey: drink
-title: Pretty Pina
+title: Pretty Pina Martini
 date: 2020-07-01T03:45:31.899Z
-price: 12
+price: 13
 ---
 
-martini / 3 ounces ten-day infused pineapple vodka / pineapple wedge / chilled
+3 oz ten-day infused pineapple vodka / pineapple wedge / chilled

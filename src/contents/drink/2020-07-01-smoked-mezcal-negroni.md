@@ -1,8 +1,8 @@
 ---
 templateKey: drink
-title: Smoked Mezcal Negroni
+title: Smoked Mezcal Negroni Rocks
 date: 2020-07-01T03:45:31.899Z
-price: 12
+price: 14
 ---
 
-rocks / 1 ounce campari / 1 ounce mezcal / 3⁄4 ounce sweet vermouth / simple syrup / burnt orange / smoked in cloche
+1 oz campari / 1 oz mezcal / ¾ oz sweet vermouth / simple syrup / burnt orange / smoked

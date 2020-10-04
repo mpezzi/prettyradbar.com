@@ -1,8 +1,8 @@
 ---
 templateKey: drink
-title: Pisco Sour
+title: Pisco Sour Coupe
 date: 2020-07-01T03:45:31.899Z
-price: 12
+price: 13
 ---
 
-coupe / 2 ounces el gobernador chilean pisco / lime juice / simple syrup / egg white / dashes angostura bitters
+2 oz el gobernador chilean pisco / lime juice / simple syrup / egg white / dashes angostura bitters
