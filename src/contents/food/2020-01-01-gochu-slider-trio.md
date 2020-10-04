@@ -6,4 +6,4 @@ image: ../../..//img/1G7A0076.jpg
 price: 15
 ---
 
-garlic butter / red pepper flakes / lemon zest / white wine / crispy sourdough panini slices
+beef chuck / gochujang mayo / dill slaw / provolone

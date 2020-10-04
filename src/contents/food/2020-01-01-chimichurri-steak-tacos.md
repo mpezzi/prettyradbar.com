@@ -5,4 +5,4 @@ date: 2020-07-01T03:45:31.899Z
 price: 16
 ---
 
-grilled flank steak / shaved lettuce / avocado / red onion
+grilled flank steak / chiffon lettuce / diced red onion / avocado / pretty chimichurri / green goddess dressing
