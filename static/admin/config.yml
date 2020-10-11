@@ -43,7 +43,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Price", name: "price", widget: "number" }
+      - { label: 'Price', name: 'price', widget: 'number', value_type: 'float' }
   - name: "drink"
     label: "Drink"
     folder: "src/contents/drink"
@@ -59,7 +59,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Price", name: "price", widget: "number" }
+      - { label: 'Price', name: 'price', widget: 'number', value_type: 'float' }
   - name: "beer"
     label: "Beer"
     folder: "src/contents/beer"
@@ -75,7 +75,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Price", name: "price", widget: "number" }
+      - { label: 'Price', name: 'price', widget: 'number', value_type: 'float' }
 # collections:
 #   - name: "blog"
 #     label: "Blog"
