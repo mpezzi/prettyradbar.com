@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Pretty Rad Bar",
-    description: "Your friends are already here",
+    description: "An awesome new bar offering an amazing tapas style menu, wicked cocktails, sweet wine list, and a slick urban lounge style setting.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

@@ -12,7 +12,7 @@ import ContactSection from "../components/ContactSection";
 const IndexPage = () => {
   return (
     <Layout>
-      <Seo />
+      <Seo title="Your friends are already here" />
       <Header />
       <Intro />
       <EventSection />

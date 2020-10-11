@@ -8,7 +8,6 @@ const Header = () => {
         site {
           siteMetadata {
             title
-            description
           }
         }
       }
@@ -21,7 +20,7 @@ const Header = () => {
         <div className="text-center w-100">
           <h1 className="my-0 text-uppercase">{site.siteMetadata.title}</h1>
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
-            {site.siteMetadata.description}
+            Your friends are already here
           </h2>
           <a href="#about" className="btn btn-primary js-scroll-trigger">
             Discover
