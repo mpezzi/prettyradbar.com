@@ -13,6 +13,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://prettyradbar.com`,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
